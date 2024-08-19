@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Website</title>
+    <link rel="stylesheet" href="style.css" </head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+
+<body>
+    <section class="weather">
+        <h1>Check Weather</h1>
+        <div class="container">
+            <input type="text" id="city-name" placeholder="Enter the location to check...">
+            <div class="input-group-append">
+                <button onclick="getWeather()">Search</button>
+            </div>
+
+        </div>
+
+        <div class="weather-status text-white text-center">
+            <img id="image-icon" src="https://openweathermap.org/img/wn/02d@2x.png" alt="">
+            <h1 id="city">Dhaka</h1>
+            <h3><span id="temp">38.06</span>&deg;C</h3>
+            <h1 class="lead" id="weather">Clouds</h1>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
